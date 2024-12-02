@@ -1,0 +1,32 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Karanlık arka plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* En üst katman */
+  pointer-events: auto; /* Sadece modal alanı tıklanabilir */
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1100; /* Modal içerik overlay üzerinde */
+}
+
+body.modal-open {
+  overflow: hidden; /* Sayfanın kaydırılmasını engelle */
+  pointer-events: none; /* Tüm içerik tıklanamaz */
+}
+
+body.modal-open .modal-overlay {
+  pointer-events: auto; /* Modal alanını tekrar tıklanabilir yap */
+}
