@@ -46,7 +46,7 @@ const useTaskList = () => {
         const dateA = new Date(a[sortConfig.key]);
         const dateB = new Date(b[sortConfig.key]);
 
-        comparison = dateA - dateB; // ASC için
+        comparison = dateA - dateB;
       }
 
       return sortConfig.direction === "desc" ? -comparison : comparison;

@@ -1,7 +1,9 @@
-# Task Management Application
+# Innovation Task Manager
 
 ## About The Project
 A modern task management application built with React and Supabase. This application allows users to efficiently manage their tasks with features like real-time updates, filtering, and categorization.
+
+🌐 **Live Demo:** [Innovation Task Manager](https://innovation-task-manager.netlify.app/)
 
 ## Features
 - ✨ Create, edit, and delete tasks
@@ -30,7 +32,7 @@ A modern task management application built with React and Supabase. This applica
 
 1. Clone the repository
 ```bash
-git clone [LINK]
+git clone https://github.com/mstfsrts/task-management.git
 cd task-management
 ```
 
@@ -138,7 +140,12 @@ src/
 5. Open a Pull Request
 
 ## Contact
-Created by [LINK]
+
+Mustafa Sarıtaş - [LinkedIn](https://www.linkedin.com/in/mustafasaritas/)
+
+Project Link: [https://github.com/mstfsrts/task-management](https://github.com/mstfsrts/task-management)
+
+Live Demo: [https://innovation-task-manager.netlify.app/](https://innovation-task-manager.netlify.app/)
 
 ## License
 MIT License

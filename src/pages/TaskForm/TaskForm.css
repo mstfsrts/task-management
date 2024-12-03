@@ -22,24 +22,24 @@
 .checkbox-label {
   display: flex;
   align-items: center;
-  gap: 10px; /* Checkbox ile metin arasında boşluk */
+  gap: 10px;
   cursor: pointer;
 }
 
 .checkbox-label input[type="checkbox"] {
-  appearance: none; /* Varsayılan checkbox stilini kaldır */
+  appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid #ccc; /* Çerçeve rengi */
-  border-radius: 4px; /* Yuvarlak köşeler */
-  background-color: white; /* Arka plan rengi */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .checkbox-label input[type="checkbox"]:checked {
-  background-color: #007bff; /* Seçildiğinde arka plan rengi */
-  border-color: #007bff; /* Seçildiğinde çerçeve rengi */
+  background-color: #007bff;
+  border-color: #007bff;
   position: relative;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .checkbox-label input[type="checkbox"]:hover {
-  border-color: #007bff; /* Hover sırasında çerçeve rengi */
+  border-color: #007bff;
 }
 
 
@@ -152,27 +152,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px; /* Sabit genişlik */
-  height: 40px; /* Sabit yükseklik */
-  background-color: #f0f0f0; /* Gri arka plan */
-  border: 1px solid #dcdcdc; /* Kenarlık */
-  border-radius: 8px; /* Hafif yuvarlak köşeler */
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
-  margin-right: 10px; /* Başlıkla aralık */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .back-button:hover {
-  background-color: #e0e0e0; /* Hover rengini değiştir */
+  background-color: #e0e0e0;
 }
 
 .back-button:active {
-  transform: scale(0.95); /* Tıklama animasyonu */
+  transform: scale(0.95);
 }
 
 .back-button svg {
-  color: #333; /* İkon rengi */
+  color: #333;
 }
 
 

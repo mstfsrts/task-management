@@ -9,11 +9,11 @@ import './TaskCard.css';
 const TaskCard = ({ task }) => {
   const { deleteTask } = useTask();
   const navigate = useNavigate();
-  const [showConfirm, setShowConfirm] = useState(false); // Modal durumu
+  const [showConfirm, setShowConfirm] = useState(false); 
 
   const handleDelete = () => {
     deleteTask(task.id);
-    setShowConfirm(false); // Popup'u kapat
+    setShowConfirm(false);
   };
 
   return (
@@ -44,7 +44,7 @@ const TaskCard = ({ task }) => {
         <button
           onClick={(e) => {
             e.stopPropagation();
-            setShowConfirm(true); // Popup'u aç
+            setShowConfirm(true);
           }}
           className="btn btn-danger"
         >
