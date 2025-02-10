@@ -17,9 +17,9 @@ jobs:
       - name: Deploy to DigitalOcean
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.104.248.205.245 }}
+          host: ${{ secrets.DROPLET_IP }}
           username: root
-          password: ${{ secrets.37Z.3gXp(uwgYQb }}
+          password: ${{ secrets.DROPLET_PASSWORD }}
           script: |
             BRANCH=$(echo $GITHUB_REF | sed 's/refs\/heads\///')
             echo "Deploying branch: $BRANCH"
