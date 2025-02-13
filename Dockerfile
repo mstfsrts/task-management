@@ -20,3 +20,4 @@ EXPOSE 5000
 # 7) When the container runs, let's start "vite preview"
 # If we don't give --host, we can also access from Dokku subdomain, but generally "--host 0.0.0.0" is needed
 CMD ["npx", "vite", "preview", "--port", "5000", "--host", "0.0.0.0"]
+CMD ["npm", "run", "preview"]
