@@ -13,10 +13,11 @@ COPY . .
 
 # 5) Let's do production build (vite build)
 RUN npm run build
+RUN npm install -g serve
 
 # 6) Let's open port 5000
 EXPOSE 5000
 
 # 7) When the container runs, let's start "vite preview"
 # If we don't give --host, we can also access from Dokku subdomain, but generally "--host 0.0.0.0" is needed
-CMD ["npx", "serve", "-s", "dist", "-l", "5000"]
+CMD ["serve", "-s", "dist", "-l", "5000"]
