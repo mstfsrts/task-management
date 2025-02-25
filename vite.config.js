@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     host: true,
     strictPort: false,
-    allowedHosts: ['task-management.mustafasaritas.me']
+    allowedHosts: ['taskmanager.mustafasaritas.me']
 }
 })
