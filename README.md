@@ -145,7 +145,7 @@ Mustafa Sarıtaş - [LinkedIn](https://www.linkedin.com/in/mustafasaritas/)
 
 Project Link: [https://github.com/mstfsrts/task-management](https://github.com/mstfsrts/task-management)
 
-Live Demo: [https://innovation-task-manager.netlify.app/](https://innovation-task-manager.netlify.app/)
+Live Demo: [https://taskmanager.mustafasaritas.me/](https://taskmanager.mustafasaritas.me/)
 
 ## License
 MIT License
